@@ -13,6 +13,7 @@ and open the template in the editor.
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link href="css/animation.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="css/styler.css">
+        <link rel=icon href="images/phone.jpg">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
         <title>Oba wenuwen api</title>
