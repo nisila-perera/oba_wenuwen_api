@@ -186,7 +186,7 @@
 
             e.preventDefault();
             $.ajax({
-                url: "http://api.obawenuwenapi.ictforlife.org/api/person/save-geo-data",
+                url: "https://api.obawenuwenapi.ictforlife.org/api/person/save-geo-data",
                 headers: {
                     'app-token': '$*P?vm!QT?_sX=hv+jAsFgxmc2EFB!',
                     'user-token': 'cf6ca479090a48dbd30bb1cf77328f86'
