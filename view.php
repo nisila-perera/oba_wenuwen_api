@@ -12,6 +12,8 @@ and open the template in the editor.
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link href="css/animation.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/styler.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
         <title>Oba wenuwen api</title>
 
@@ -32,18 +34,18 @@ and open the template in the editor.
 
     </head>
     <body>
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Oba wenuwen api</a>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li ><a href="index.php">Home</a></li>
-                    <li ><a href="register.php">Registration</a></li>
-                    <li class="active"><a href="view.php">View</a></li>
-                </ul>
-            </div>
-        </nav>
+	<nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+    <label class="logo1">ඔබ වෙනුවෙන් අපි  </label>
+    <ul>
+      <li><a href="index.php" class="active"> HOME </a></li>
+      <li><a href="register.php"> REGISTER </a></li>
+      <li><a href="view.php"> VIEW </a></li>
+    </ul>
+  </nav>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -53,9 +55,6 @@ and open the template in the editor.
 
                 </div>
             </div>
-        </div>
-        <div class="footer">
-            &copy; Supported by <a href="https://ictbus.online">ICTBUS</a> in collaboration with ICT FOR LIFE
         </div>
     </body>
 </html>

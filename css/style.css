@@ -2494,8 +2494,8 @@ input[type="button"].btn-block {
 
 .fade {
   -webkit-transition: opacity 0.15s linear;
-  -o-transition: opacity 0.15s linear;
-  transition: opacity 0.15s linear; }
+  -o-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear; }
   @media (prefers-reduced-motion: reduce) {
     .fade {
       -webkit-transition: none;
@@ -8193,16 +8193,8 @@ h1, h2, h3, h4, h5,
       width: 100%; } }
 
 .text-wrap {
-  background: #f75959;
-  background: -moz-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, #f75959), color-stop(100%, #f35587));
-  background: -webkit-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
-  background: -o-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
-  background: -ms-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
-  background: -webkit-linear-gradient(315deg, #f75959 0%, #f35587 100%);
-  background: -o-linear-gradient(315deg, #f75959 0%, #f35587 100%);
-  background: linear-gradient(135deg, #f75959 0%, #f35587 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f75959', endColorstr='#f35587', GradientType=1 );
+  background: #1a84ed;
+
   color: #fff; }
   .text-wrap .text h2 {
     font-weight: 900;
@@ -8335,9 +8327,9 @@ h1, h2, h3, h4, h5,
 
 /* Style the checkmark/indicator */
 .checkbox-primary {
-  color: #f35588; }
+  color: #1a84ed; }
   .checkbox-primary input:checked ~ .checkmark:after {
-    color: #f35588; }
+    color: #1a84ed; }
 
 .btn {
   cursor: pointer;
@@ -8349,27 +8341,28 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #f35588;
-    border: 1px solid #f35588;
+    background: #1a84ed;
+    border: 1px solid #1a84ed;
     color: #fff;
-    background: #f75959;
-    background: -moz-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, #f75959), color-stop(100%, #f35587));
-    background: -webkit-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
-    background: -o-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
-    background: -ms-linear-gradient(-45deg, #f75959 0%, #f35587 100%);
-    background: -webkit-linear-gradient(315deg, #f75959 0%, #f35587 100%);
-    background: -o-linear-gradient(315deg, #f75959 0%, #f35587 100%);
-    background: linear-gradient(135deg, #f75959 0%, #f35587 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f75959', endColorstr='#f35587', GradientType=1 ); }
+    background: #1a84ed;
+    background: -moz-linear-gradient(-45deg, #1F51FF 0%, #1F51FF 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #1F51FF), color-stop(100%, #1F51FF));
+    background: -webkit-linear-gradient(-45deg, #1F51FF 0%, #1F51FF 100%);
+    background: -o-linear-gradient(-45deg, #1F51FF 0%, #1F51FF 100%);
+    background: -ms-linear-gradient(-45deg, #1F51FF 0%, #1F51FF 100%);
+    background: -webkit-linear-gradient(315deg, #1F51FF 0%, #1F51FF 100%);
+    background: -o-linear-gradient(315deg, #1F51FF 0%, #1F51FF 100%);
+    background: linear-gradient(135deg, #1F51FF 0%, #1F51FF 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1F51FF', endColorstr='#1F51FF', GradientType=1 ); }
     .btn.btn-primary:hover {
-      border: 1px solid #f35588;
-      background: #f35588;
-      color: #fff; }
+      border: 1px solid #1a84ed;
+      background: #1a84ed;
+      color: #fff;
+    transition: 0.3s; }
     .btn.btn-primary.btn-outline-primary {
-      border: 1px solid #f35588;
+      border: 1px solid #1a84ed;
       background: transparent;
-      color: #f35588; }
+      color: #1a84ed; }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 1px solid transparent;
         background: #f35588;
