@@ -123,3 +123,23 @@ a:hover{
 .about-text h1{
     font-size: 50px;
 }
+#footer{
+    padding: 30px 0 30px;
+  }
+  hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #1a84ed;
+  }
+  
+  .copyright-text
+  {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .copyright-text a
+  {
+    text-decoration: none;
+    color: #777;
+  }

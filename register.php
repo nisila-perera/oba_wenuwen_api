@@ -110,6 +110,12 @@
 			</div>
 		</div>
 	</section>
+	<section id="footer">
+          <hr>
+        <div class="copyright-text">
+          <p>&copy;Copyright 2021 Oba Wenuwen Api all rights reserved. | This website is made by <a href="http://nisilainsitha.online/" target="_blank">NISILA INSITHA</a></p>   
+        </div>
+      </section>
 
 	<script src="js/jquery.min.js"></script>
   <script src="js/popper.js"></script>
